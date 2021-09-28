@@ -75,6 +75,7 @@ public class LaunchApplication extends Application {
     /**
      * In attachBaseContext phase, getApplicationContext will return null and cannot create LocalBroadcastManager
      * instance
+     *ghjkj
      */
     @Override
     public Context getApplicationContext() {

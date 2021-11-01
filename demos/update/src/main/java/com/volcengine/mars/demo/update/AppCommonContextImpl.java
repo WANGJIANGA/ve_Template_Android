@@ -14,6 +14,12 @@ public class AppCommonContextImpl extends AbsAppCommonContext {
         mContext = context;
     }
 
+    @Override
+    public String getCustomUrl() {
+        return "https://release-api.vemarsdev.com/v1/gray_release/package ";
+    }
+
+
     @NotNull
     @Override
     public Context getContext() {

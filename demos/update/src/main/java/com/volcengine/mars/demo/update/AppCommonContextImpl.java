@@ -16,7 +16,7 @@ public class AppCommonContextImpl extends AbsAppCommonContext {
 
     @Override
     public String getCustomUrl() {
-        return " https://release-tob-api.vemarsdev.com/v1/gray_release/package";
+        return "https://release-api-ppe.bytedance.net/v1/gray_release/package?device_id=7135843781112";
     }
 
 
